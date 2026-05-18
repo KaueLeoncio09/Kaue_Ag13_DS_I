@@ -1,0 +1,6 @@
+/* Estilo geral dos parágrafos */
+p{
+    color: #444;
+    line-height: 1.6;
+    margin-top: 10px;
+}

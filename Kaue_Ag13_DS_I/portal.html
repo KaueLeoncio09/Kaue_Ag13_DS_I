@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="estilo1.css">
+
+    <!-- CSS Interno -->
+    <style>
+        /* Estilo geral do body */
+        body{
+            background-color: #f4f4f4;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Organização das seções usando Flexbox */
+        .container{
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Estilo padrão das seções */
+        .secao{
+            background-color: white;
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Classe usada nos títulos */
+        .titulo{
+            color: #222;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        /* ID específico */
+        #titulo-principal{
+            text-align: center;
+            margin-top: 20px;
+            color: darkblue;
+        }
+
+        /* Classe das imagens */
+        .imagem{
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        /* Responsividade simples */
+        @media (max-width: 900px){
+            .secao{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CSS Inline aplicado no título -->
+    <h1 id="titulo-principal" style="font-size: 42px;">
+        Meu Portal de Entretenimento Digital
+    </h1>
+
+    <div class="container">
+
+        <!-- Seção Filmes e Séries -->
+        <section class="secao">
+            <h2 class="titulo">Filmes e Séries</h2>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba" alt="Cinema">
+
+             <p>
+                O universo dos filmes e séries oferece histórias emocionantes,
+                personagens marcantes e experiências cinematográficas incríveis.
+            </p>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c" alt="Filmes">
+
+
+            <p>
+                Plataformas de streaming tornaram o entretenimento mais acessível,
+                permitindo assistir conteúdos em qualquer lugar.
+            </p>
+
+        </section>
+
+        <!-- Seção Música e Podcasts -->
+        <section class="secao">
+            <h2 class="titulo">Música e Podcasts</h2>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f" alt="Música">
+            
+            <p>
+                A música acompanha momentos importantes da vida e conecta pessoas
+                através de diferentes estilos e culturas.
+            </p>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Podcast">
+
+            <p>
+                Podcasts cresceram muito nos últimos anos, trazendo conteúdos sobre
+                tecnologia, humor, educação e entretenimento.
+            </p>
+
+        </section>
+
+        <!-- Seção Games e Tecnologia -->
+        <section class="secao">
+            <h2 class="titulo">Games e Tecnologia</h2>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8" alt="Games">
+            
+            <p>
+                Os games evoluíram para experiências imersivas com gráficos
+                avançados, realidade virtual e competições online.
+            </p>
+
+            <img class="imagem" src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Tecnologia">
+
+            <p>
+                A tecnologia transforma constantemente o entretenimento digital,
+                trazendo novas formas de interação e diversão.
+            </p>
+            
+        </section>
+
+    </div>
+
+</body>
+</html>
